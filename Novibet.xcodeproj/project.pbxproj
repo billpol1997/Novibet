@@ -14,6 +14,35 @@
 		A97F17C0293A1B770012C938 /* NovibetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17BF293A1B770012C938 /* NovibetTests.swift */; };
 		A97F17CA293A1B770012C938 /* NovibetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17C9293A1B770012C938 /* NovibetUITests.swift */; };
 		A97F17CC293A1B770012C938 /* NovibetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17CB293A1B770012C938 /* NovibetUITestsLaunchTests.swift */; };
+		A97F17E6293A20D80012C938 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17E5293A20D80012C938 /* Color+.swift */; };
+		A97F17E8293A22C40012C938 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17E7293A22C40012C938 /* LoginView.swift */; };
+		A97F17EA293A25AD0012C938 /* LogoTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17E9293A25AD0012C938 /* LogoTopBar.swift */; };
+		A97F17EC293A25DD0012C938 /* Image+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17EB293A25DD0012C938 /* Image+.swift */; };
+		A97F17EF293A26170012C938 /* AssetsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17EE293A26170012C938 /* AssetsEnum.swift */; };
+		A97F17F1293A279E0012C938 /* CGFloat+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17F0293A279E0012C938 /* CGFloat+.swift */; };
+		A97F17F3293A27E30012C938 /* PaddingsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17F2293A27E30012C938 /* PaddingsEnum.swift */; };
+		A97F17F5293A284B0012C938 /* FontSizesEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17F4293A284B0012C938 /* FontSizesEnum.swift */; };
+		A97F17F7293A288A0012C938 /* CornerRadiusEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17F6293A288A0012C938 /* CornerRadiusEnum.swift */; };
+		A97F17F9293A28F50012C938 /* HeightsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17F8293A28F50012C938 /* HeightsEnum.swift */; };
+		A97F17FB293A29370012C938 /* WidthsEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17FA293A29370012C938 /* WidthsEnum.swift */; };
+		A97F17FE293A29DA0012C938 /* PaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17FD293A29DA0012C938 /* PaddingModifier.swift */; };
+		A97F1800293A2A0B0012C938 /* CornerRadiusModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17FF293A2A0B0012C938 /* CornerRadiusModifier.swift */; };
+		A97F1803293A2F0A0012C938 /* BaseTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1802293A2F0A0012C938 /* BaseTextField.swift */; };
+		A97F1805293A32EE0012C938 /* FontFamilyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1804293A32EE0012C938 /* FontFamilyEnum.swift */; };
+		A97F1807293A330F0012C938 /* FontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1806293A330F0012C938 /* FontModifier.swift */; };
+		A97F1809293A4EFF0012C938 /* Text+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1808293A4EFF0012C938 /* Text+.swift */; };
+		A97F180B293A4F490012C938 /* TextEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F180A293A4F490012C938 /* TextEnum.swift */; };
+		A97F180D293A5AB60012C938 /* Double+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F180C293A5AB60012C938 /* Double+.swift */; };
+		A97F180F293A5AC50012C938 /* OpacityEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F180E293A5AC50012C938 /* OpacityEnum.swift */; };
+		A97F1811293A5B070012C938 /* OpacityModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1810293A5B070012C938 /* OpacityModifier.swift */; };
+		A97F1813293A69210012C938 /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1812293A69210012C938 /* LoginVM.swift */; };
+		A97F1815293A6EF10012C938 /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1814293A6EF10012C938 /* TextFieldValidator.swift */; };
+		A97F1817293A6F480012C938 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1816293A6F480012C938 /* Constants.swift */; };
+		A97F181A293A78ED0012C938 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A97F1819293A78ED0012C938 /* Alamofire */; };
+		A97F181C293A7B230012C938 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F181B293A7B230012C938 /* APIManager.swift */; };
+		A97F181F293A7BBC0012C938 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F181E293A7BBC0012C938 /* LoginModel.swift */; };
+		A97F1821293A7C5C0012C938 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1820293A7C5C0012C938 /* LoginResponseModel.swift */; };
+		A97F1823293A7E190012C938 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1822293A7E190012C938 /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +73,35 @@
 		A97F17C5293A1B770012C938 /* NovibetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97F17C9293A1B770012C938 /* NovibetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetUITests.swift; sourceTree = "<group>"; };
 		A97F17CB293A1B770012C938 /* NovibetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A97F17E5293A20D80012C938 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		A97F17E7293A22C40012C938 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A97F17E9293A25AD0012C938 /* LogoTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoTopBar.swift; sourceTree = "<group>"; };
+		A97F17EB293A25DD0012C938 /* Image+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+.swift"; sourceTree = "<group>"; };
+		A97F17EE293A26170012C938 /* AssetsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetsEnum.swift; sourceTree = "<group>"; };
+		A97F17F0293A279E0012C938 /* CGFloat+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+.swift"; sourceTree = "<group>"; };
+		A97F17F2293A27E30012C938 /* PaddingsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingsEnum.swift; sourceTree = "<group>"; };
+		A97F17F4293A284B0012C938 /* FontSizesEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizesEnum.swift; sourceTree = "<group>"; };
+		A97F17F6293A288A0012C938 /* CornerRadiusEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusEnum.swift; sourceTree = "<group>"; };
+		A97F17F8293A28F50012C938 /* HeightsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightsEnum.swift; sourceTree = "<group>"; };
+		A97F17FA293A29370012C938 /* WidthsEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidthsEnum.swift; sourceTree = "<group>"; };
+		A97F17FD293A29DA0012C938 /* PaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaddingModifier.swift; sourceTree = "<group>"; };
+		A97F17FF293A2A0B0012C938 /* CornerRadiusModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerRadiusModifier.swift; sourceTree = "<group>"; };
+		A97F1802293A2F0A0012C938 /* BaseTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextField.swift; sourceTree = "<group>"; };
+		A97F1804293A32EE0012C938 /* FontFamilyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontFamilyEnum.swift; sourceTree = "<group>"; };
+		A97F1806293A330F0012C938 /* FontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontModifier.swift; sourceTree = "<group>"; };
+		A97F1808293A4EFF0012C938 /* Text+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Text+.swift"; sourceTree = "<group>"; };
+		A97F180A293A4F490012C938 /* TextEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEnum.swift; sourceTree = "<group>"; };
+		A97F180C293A5AB60012C938 /* Double+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+.swift"; sourceTree = "<group>"; };
+		A97F180E293A5AC50012C938 /* OpacityEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityEnum.swift; sourceTree = "<group>"; };
+		A97F1810293A5B070012C938 /* OpacityModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpacityModifier.swift; sourceTree = "<group>"; };
+		A97F1812293A69210012C938 /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		A97F1814293A6EF10012C938 /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidator.swift; sourceTree = "<group>"; };
+		A97F1816293A6F480012C938 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A97F181B293A7B230012C938 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		A97F181E293A7BBC0012C938 /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		A97F1820293A7C5C0012C938 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
+		A97F1822293A7E190012C938 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A97F1824293A85890012C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97F181A293A78ED0012C938 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +153,16 @@
 		A97F17AD293A1B770012C938 /* Novibet */ = {
 			isa = PBXGroup;
 			children = (
+				A97F1824293A85890012C938 /* Info.plist */,
 				A97F17AE293A1B770012C938 /* NovibetApp.swift */,
 				A97F17B0293A1B770012C938 /* ContentView.swift */,
+				A97F17FC293A29A60012C938 /* Modifiers */,
+				A97F17ED293A25EA0012C938 /* Enums */,
+				A97F17E4293A20C10012C938 /* Extensions */,
+				A97F17DA293A1C110012C938 /* Data */,
+				A97F181D293A7B9D0012C938 /* Models */,
+				A97F17D9293A1BFF0012C938 /* ViewModels */,
+				A97F17D8293A1BF00012C938 /* Views */,
 				A97F17B2293A1B770012C938 /* Assets.xcassets */,
 				A97F17B4293A1B770012C938 /* Preview Content */,
 			);
@@ -127,6 +194,91 @@
 			path = NovibetUITests;
 			sourceTree = "<group>";
 		};
+		A97F17D8293A1BF00012C938 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A97F1801293A2EEF0012C938 /* BaseComponents */,
+				A97F17E7293A22C40012C938 /* LoginView.swift */,
+				A97F17E9293A25AD0012C938 /* LogoTopBar.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A97F17D9293A1BFF0012C938 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A97F1812293A69210012C938 /* LoginVM.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A97F17DA293A1C110012C938 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A97F1816293A6F480012C938 /* Constants.swift */,
+				A97F181B293A7B230012C938 /* APIManager.swift */,
+				A97F1822293A7E190012C938 /* NetworkError.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A97F17E4293A20C10012C938 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17E5293A20D80012C938 /* Color+.swift */,
+				A97F17EB293A25DD0012C938 /* Image+.swift */,
+				A97F17F0293A279E0012C938 /* CGFloat+.swift */,
+				A97F1808293A4EFF0012C938 /* Text+.swift */,
+				A97F180C293A5AB60012C938 /* Double+.swift */,
+				A97F1814293A6EF10012C938 /* TextFieldValidator.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A97F17ED293A25EA0012C938 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17EE293A26170012C938 /* AssetsEnum.swift */,
+				A97F17F2293A27E30012C938 /* PaddingsEnum.swift */,
+				A97F17F4293A284B0012C938 /* FontSizesEnum.swift */,
+				A97F17F6293A288A0012C938 /* CornerRadiusEnum.swift */,
+				A97F17F8293A28F50012C938 /* HeightsEnum.swift */,
+				A97F17FA293A29370012C938 /* WidthsEnum.swift */,
+				A97F1804293A32EE0012C938 /* FontFamilyEnum.swift */,
+				A97F180A293A4F490012C938 /* TextEnum.swift */,
+				A97F180E293A5AC50012C938 /* OpacityEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		A97F17FC293A29A60012C938 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17FD293A29DA0012C938 /* PaddingModifier.swift */,
+				A97F17FF293A2A0B0012C938 /* CornerRadiusModifier.swift */,
+				A97F1806293A330F0012C938 /* FontModifier.swift */,
+				A97F1810293A5B070012C938 /* OpacityModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		A97F1801293A2EEF0012C938 /* BaseComponents */ = {
+			isa = PBXGroup;
+			children = (
+				A97F1802293A2F0A0012C938 /* BaseTextField.swift */,
+			);
+			path = BaseComponents;
+			sourceTree = "<group>";
+		};
+		A97F181D293A7B9D0012C938 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A97F181E293A7BBC0012C938 /* LoginModel.swift */,
+				A97F1820293A7C5C0012C938 /* LoginResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +295,9 @@
 			dependencies = (
 			);
 			name = Novibet;
+			packageProductDependencies = (
+				A97F1819293A78ED0012C938 /* Alamofire */,
+			);
 			productName = Novibet;
 			productReference = A97F17AB293A1B770012C938 /* Novibet.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +370,9 @@
 				Base,
 			);
 			mainGroup = A97F17A2293A1B760012C938;
+			packageReferences = (
+				A97F1818293A78ED0012C938 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A97F17AC293A1B770012C938 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +415,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97F1815293A6EF10012C938 /* TextFieldValidator.swift in Sources */,
+				A97F181F293A7BBC0012C938 /* LoginModel.swift in Sources */,
 				A97F17B1293A1B770012C938 /* ContentView.swift in Sources */,
+				A97F180D293A5AB60012C938 /* Double+.swift in Sources */,
+				A97F181C293A7B230012C938 /* APIManager.swift in Sources */,
+				A97F1811293A5B070012C938 /* OpacityModifier.swift in Sources */,
+				A97F1809293A4EFF0012C938 /* Text+.swift in Sources */,
+				A97F17EC293A25DD0012C938 /* Image+.swift in Sources */,
+				A97F1803293A2F0A0012C938 /* BaseTextField.swift in Sources */,
+				A97F1823293A7E190012C938 /* NetworkError.swift in Sources */,
+				A97F1817293A6F480012C938 /* Constants.swift in Sources */,
+				A97F17EA293A25AD0012C938 /* LogoTopBar.swift in Sources */,
+				A97F17E6293A20D80012C938 /* Color+.swift in Sources */,
+				A97F1805293A32EE0012C938 /* FontFamilyEnum.swift in Sources */,
+				A97F180F293A5AC50012C938 /* OpacityEnum.swift in Sources */,
+				A97F17FE293A29DA0012C938 /* PaddingModifier.swift in Sources */,
+				A97F17F1293A279E0012C938 /* CGFloat+.swift in Sources */,
+				A97F17E8293A22C40012C938 /* LoginView.swift in Sources */,
+				A97F17FB293A29370012C938 /* WidthsEnum.swift in Sources */,
+				A97F180B293A4F490012C938 /* TextEnum.swift in Sources */,
+				A97F17F5293A284B0012C938 /* FontSizesEnum.swift in Sources */,
+				A97F1807293A330F0012C938 /* FontModifier.swift in Sources */,
+				A97F1821293A7C5C0012C938 /* LoginResponseModel.swift in Sources */,
+				A97F17EF293A26170012C938 /* AssetsEnum.swift in Sources */,
+				A97F17F3293A27E30012C938 /* PaddingsEnum.swift in Sources */,
+				A97F17F9293A28F50012C938 /* HeightsEnum.swift in Sources */,
+				A97F1813293A69210012C938 /* LoginVM.swift in Sources */,
+				A97F17F7293A288A0012C938 /* CornerRadiusEnum.swift in Sources */,
+				A97F1800293A2A0B0012C938 /* CornerRadiusModifier.swift in Sources */,
 				A97F17AF293A1B770012C938 /* NovibetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +605,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Novibet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Novibet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +634,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Novibet/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Novibet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +765,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A97F1818293A78ED0012C938 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A97F1819293A78ED0012C938 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A97F1818293A78ED0012C938 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A97F17A3293A1B760012C938 /* Project object */;
 }
