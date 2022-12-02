@@ -11,7 +11,7 @@ import Alamofire
 class Constants{
     let usernameHint = "Type your username"
     let passwordHint = "Type your password"
-    let regex = "[A-Z]{2}[0-9]{4}"
+    let regex = "^[a-zA-Z]+$"   //"[A-Z]{2}[0-9]{4}"
     let loginURL = "http://www.mocky.io/v2/5d8e4bd9310000a2612b5448/login"
     let gamesURL = "http://www.mocky.io/v2/5d7113513300000b2177973a"
     let headlinesURL = "http://www.mocky.io/v2/5d7113ef3300000e00779746"

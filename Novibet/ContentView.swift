@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        LoginView()
+        navStack
+    }
+    
+    var navStack: some View{
+        NavigationStack{
+            LoginView()
+        }
     }
 }
 

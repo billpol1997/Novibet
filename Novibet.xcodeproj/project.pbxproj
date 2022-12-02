@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92C23E9293AC06E0095C1B5 /* BetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C23E8293AC06E0095C1B5 /* BetView.swift */; };
 		A97F17AF293A1B770012C938 /* NovibetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17AE293A1B770012C938 /* NovibetApp.swift */; };
 		A97F17B1293A1B770012C938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17B0293A1B770012C938 /* ContentView.swift */; };
 		A97F17B3293A1B770012C938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97F17B2293A1B770012C938 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A92C23E8293AC06E0095C1B5 /* BetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetView.swift; sourceTree = "<group>"; };
 		A97F17AB293A1B770012C938 /* Novibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A97F17AE293A1B770012C938 /* NovibetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetApp.swift; sourceTree = "<group>"; };
 		A97F17B0293A1B770012C938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -199,7 +201,7 @@
 			children = (
 				A97F1801293A2EEF0012C938 /* BaseComponents */,
 				A97F17E7293A22C40012C938 /* LoginView.swift */,
-				A97F17E9293A25AD0012C938 /* LogoTopBar.swift */,
+				A92C23E8293AC06E0095C1B5 /* BetView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -265,6 +267,7 @@
 		A97F1801293A2EEF0012C938 /* BaseComponents */ = {
 			isa = PBXGroup;
 			children = (
+				A97F17E9293A25AD0012C938 /* LogoTopBar.swift */,
 				A97F1802293A2F0A0012C938 /* BaseTextField.swift */,
 			);
 			path = BaseComponents;
@@ -445,6 +448,7 @@
 				A97F17F7293A288A0012C938 /* CornerRadiusEnum.swift in Sources */,
 				A97F1800293A2A0B0012C938 /* CornerRadiusModifier.swift in Sources */,
 				A97F17AF293A1B770012C938 /* NovibetApp.swift in Sources */,
+				A92C23E9293AC06E0095C1B5 /* BetView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
