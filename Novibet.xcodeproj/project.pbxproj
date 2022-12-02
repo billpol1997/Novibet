@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A97F17AF293A1B770012C938 /* NovibetApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17AE293A1B770012C938 /* NovibetApp.swift */; };
+		A97F17B1293A1B770012C938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17B0293A1B770012C938 /* ContentView.swift */; };
+		A97F17B3293A1B770012C938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97F17B2293A1B770012C938 /* Assets.xcassets */; };
+		A97F17B6293A1B770012C938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97F17B5293A1B770012C938 /* Preview Assets.xcassets */; };
+		A97F17C0293A1B770012C938 /* NovibetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17BF293A1B770012C938 /* NovibetTests.swift */; };
+		A97F17CA293A1B770012C938 /* NovibetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17C9293A1B770012C938 /* NovibetUITests.swift */; };
+		A97F17CC293A1B770012C938 /* NovibetUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F17CB293A1B770012C938 /* NovibetUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A97F17BC293A1B770012C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97F17A3293A1B760012C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97F17AA293A1B770012C938;
+			remoteInfo = Novibet;
+		};
+		A97F17C6293A1B770012C938 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A97F17A3293A1B760012C938 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A97F17AA293A1B770012C938;
+			remoteInfo = Novibet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A97F17AB293A1B770012C938 /* Novibet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Novibet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97F17AE293A1B770012C938 /* NovibetApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetApp.swift; sourceTree = "<group>"; };
+		A97F17B0293A1B770012C938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A97F17B2293A1B770012C938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A97F17B5293A1B770012C938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A97F17BB293A1B770012C938 /* NovibetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97F17BF293A1B770012C938 /* NovibetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetTests.swift; sourceTree = "<group>"; };
+		A97F17C5293A1B770012C938 /* NovibetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NovibetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A97F17C9293A1B770012C938 /* NovibetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetUITests.swift; sourceTree = "<group>"; };
+		A97F17CB293A1B770012C938 /* NovibetUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NovibetUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A97F17A8293A1B770012C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17B8293A1B770012C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17C2293A1B770012C938 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A97F17A2293A1B760012C938 = {
+			isa = PBXGroup;
+			children = (
+				A97F17AD293A1B770012C938 /* Novibet */,
+				A97F17BE293A1B770012C938 /* NovibetTests */,
+				A97F17C8293A1B770012C938 /* NovibetUITests */,
+				A97F17AC293A1B770012C938 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A97F17AC293A1B770012C938 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17AB293A1B770012C938 /* Novibet.app */,
+				A97F17BB293A1B770012C938 /* NovibetTests.xctest */,
+				A97F17C5293A1B770012C938 /* NovibetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A97F17AD293A1B770012C938 /* Novibet */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17AE293A1B770012C938 /* NovibetApp.swift */,
+				A97F17B0293A1B770012C938 /* ContentView.swift */,
+				A97F17B2293A1B770012C938 /* Assets.xcassets */,
+				A97F17B4293A1B770012C938 /* Preview Content */,
+			);
+			path = Novibet;
+			sourceTree = "<group>";
+		};
+		A97F17B4293A1B770012C938 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17B5293A1B770012C938 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A97F17BE293A1B770012C938 /* NovibetTests */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17BF293A1B770012C938 /* NovibetTests.swift */,
+			);
+			path = NovibetTests;
+			sourceTree = "<group>";
+		};
+		A97F17C8293A1B770012C938 /* NovibetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A97F17C9293A1B770012C938 /* NovibetUITests.swift */,
+				A97F17CB293A1B770012C938 /* NovibetUITestsLaunchTests.swift */,
+			);
+			path = NovibetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A97F17AA293A1B770012C938 /* Novibet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97F17CF293A1B770012C938 /* Build configuration list for PBXNativeTarget "Novibet" */;
+			buildPhases = (
+				A97F17A7293A1B770012C938 /* Sources */,
+				A97F17A8293A1B770012C938 /* Frameworks */,
+				A97F17A9293A1B770012C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Novibet;
+			productName = Novibet;
+			productReference = A97F17AB293A1B770012C938 /* Novibet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A97F17BA293A1B770012C938 /* NovibetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97F17D2293A1B770012C938 /* Build configuration list for PBXNativeTarget "NovibetTests" */;
+			buildPhases = (
+				A97F17B7293A1B770012C938 /* Sources */,
+				A97F17B8293A1B770012C938 /* Frameworks */,
+				A97F17B9293A1B770012C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97F17BD293A1B770012C938 /* PBXTargetDependency */,
+			);
+			name = NovibetTests;
+			productName = NovibetTests;
+			productReference = A97F17BB293A1B770012C938 /* NovibetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A97F17C4293A1B770012C938 /* NovibetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A97F17D5293A1B770012C938 /* Build configuration list for PBXNativeTarget "NovibetUITests" */;
+			buildPhases = (
+				A97F17C1293A1B770012C938 /* Sources */,
+				A97F17C2293A1B770012C938 /* Frameworks */,
+				A97F17C3293A1B770012C938 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A97F17C7293A1B770012C938 /* PBXTargetDependency */,
+			);
+			name = NovibetUITests;
+			productName = NovibetUITests;
+			productReference = A97F17C5293A1B770012C938 /* NovibetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A97F17A3293A1B760012C938 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A97F17AA293A1B770012C938 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					A97F17BA293A1B770012C938 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A97F17AA293A1B770012C938;
+					};
+					A97F17C4293A1B770012C938 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = A97F17AA293A1B770012C938;
+					};
+				};
+			};
+			buildConfigurationList = A97F17A6293A1B760012C938 /* Build configuration list for PBXProject "Novibet" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A97F17A2293A1B760012C938;
+			productRefGroup = A97F17AC293A1B770012C938 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A97F17AA293A1B770012C938 /* Novibet */,
+				A97F17BA293A1B770012C938 /* NovibetTests */,
+				A97F17C4293A1B770012C938 /* NovibetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A97F17A9293A1B770012C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F17B6293A1B770012C938 /* Preview Assets.xcassets in Resources */,
+				A97F17B3293A1B770012C938 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17B9293A1B770012C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17C3293A1B770012C938 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A97F17A7293A1B770012C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F17B1293A1B770012C938 /* ContentView.swift in Sources */,
+				A97F17AF293A1B770012C938 /* NovibetApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17B7293A1B770012C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F17C0293A1B770012C938 /* NovibetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A97F17C1293A1B770012C938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A97F17CC293A1B770012C938 /* NovibetUITestsLaunchTests.swift in Sources */,
+				A97F17CA293A1B770012C938 /* NovibetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A97F17BD293A1B770012C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97F17AA293A1B770012C938 /* Novibet */;
+			targetProxy = A97F17BC293A1B770012C938 /* PBXContainerItemProxy */;
+		};
+		A97F17C7293A1B770012C938 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A97F17AA293A1B770012C938 /* Novibet */;
+			targetProxy = A97F17C6293A1B770012C938 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A97F17CD293A1B770012C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A97F17CE293A1B770012C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A97F17D0293A1B770012C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Novibet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.Novibet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A97F17D1293A1B770012C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Novibet/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.Novibet";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A97F17D3293A1B770012C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.NovibetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novibet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Novibet";
+			};
+			name = Debug;
+		};
+		A97F17D4293A1B770012C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.NovibetTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Novibet.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Novibet";
+			};
+			name = Release;
+		};
+		A97F17D6293A1B770012C938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.NovibetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Novibet;
+			};
+			name = Debug;
+		};
+		A97F17D7293A1B770012C938 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "bill-polizos.NovibetUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Novibet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A97F17A6293A1B760012C938 /* Build configuration list for PBXProject "Novibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97F17CD293A1B770012C938 /* Debug */,
+				A97F17CE293A1B770012C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97F17CF293A1B770012C938 /* Build configuration list for PBXNativeTarget "Novibet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97F17D0293A1B770012C938 /* Debug */,
+				A97F17D1293A1B770012C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97F17D2293A1B770012C938 /* Build configuration list for PBXNativeTarget "NovibetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97F17D3293A1B770012C938 /* Debug */,
+				A97F17D4293A1B770012C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A97F17D5293A1B770012C938 /* Build configuration list for PBXNativeTarget "NovibetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A97F17D6293A1B770012C938 /* Debug */,
+				A97F17D7293A1B770012C938 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A97F17A3293A1B760012C938 /* Project object */;
+}
