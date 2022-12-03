@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum OpacityEnum{
-    case halfOpacity,almostFullOpacity,quarterOpacity,almostNoOpacity,noOpacity,fullOpacity
+    case halfOpacity,almostFullOpacity,quarterOpacity,almostNoOpacity,noOpacity,fullOpacity,mediumOpacity
     
     
     var opacity: Double{
@@ -21,6 +21,8 @@ enum OpacityEnum{
             return 0.25
         case .halfOpacity:
             return 0.5
+        case .mediumOpacity:
+            return 0.8
         case .almostFullOpacity:
             return 0.9
         case .fullOpacity:

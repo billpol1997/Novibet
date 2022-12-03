@@ -11,9 +11,12 @@ import Foundation
 enum WidthsEnum{
     case topBarLogoWidth
     case loginbuttonWidth
+    case ballIconWidth
     
     var width: CGFloat{
         switch self{
+        case .ballIconWidth:
+            return 15
         case .loginbuttonWidth:
             return 200
         case .topBarLogoWidth:

@@ -11,4 +11,6 @@ import Foundation
 enum AssetsEnum: String{
     case NovibetLogo
     case NovibetsmallLogo
+    case soccer
+    case basketball
 }

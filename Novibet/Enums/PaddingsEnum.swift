@@ -16,15 +16,24 @@ enum PaddingEnum{
     case screenHorizontalPadding
     case loginButtonVerticalPadding
     case loginButtonBottomPadding
+    case probContainerVerticalPadding
+    case probContainerHorizontalPadding
+    case headlineContainerVerticalPadding
+    case pageIndVerticalPadding
+    case gameContainerProbsTopPadding
     
     
     
     var padding: CGFloat{
         switch self{
+        case .probContainerVerticalPadding:
+            return 5
+        case .headlineContainerVerticalPadding,.gameContainerProbsTopPadding,.screenHorizontalPadding:
+            return 10
+        case .probContainerHorizontalPadding,.pageIndVerticalPadding:
+            return 11
         case .passwordIconPadding,.loginButtonVerticalPadding:
             return 15
-        case .screenHorizontalPadding:
-            return 20
         case .indicatorHorizontalPadding:
             return 30
         case .loginButtonBottomPadding:
