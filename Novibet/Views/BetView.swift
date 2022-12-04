@@ -9,8 +9,9 @@ import SwiftUI
 
 struct BetView: View {
     //MARK: vars
-    @State var currentPage : Int = 2
+    @State var currentPage : Int = 0
     @State var isHidden : Bool = false
+    @ObservedObject var viewModel = BetVM()
 
     //MARK: Body
     var body: some View {
@@ -37,11 +38,12 @@ struct BetView: View {
     //MARK: main bet view
     var mainView : some View{
         VStack(spacing: 10){
-            headlines
-                .customPadding(.bottom, .headlineContainerVerticalPadding)
+            ScrollView(.horizontal){
+                headlines
+            }
+            .customPadding(.bottom, .headlineContainerVerticalPadding)
             ScrollView{
                 gameHeader
-                games
                 Spacer()
             }
         }
@@ -58,22 +60,67 @@ struct BetView: View {
     
     //MARK: List of headlines
     //FIXME: needs foreach and hor scrolling
-    var headlines : some View{
-        HeadlineContainer(currPage: currentPage, probOne: "1.0", probX:"2.45", probTwo: "7.98",teamOne: "team1",teamTwo: "team2",time: "22:00")
-    }
-    
-    //MARK: List of sports
-    //FIXME: needs foreach
-    var gameHeader : some View{
-        GameHeader(sport: "Ποδόσφαιρο", num: "20", isHidden: $isHidden, gameLeague: "tsoulou")
-    }
-    
-    //MARK: List of matches
     @ViewBuilder
-    var games : some View{
-        if !isHidden{
-            GameContainer(probOne: "1.0", probX: "1.0", probTwo: "1.0", teamOne: "team1", teamTwo: "team2", time: "6:30", scoreOne: "0", scroreTwo: "0")
+    var headlines : some View{
+        HStack{
+            HeadlineContainer(
+                currPage: 0,
+                probOne: viewModel.headlines.first?.bets?.first?.odds ?? "",
+                probTwo: viewModel.headlines.first?.bets?[1].odds ?? "" ,
+                teamOne: viewModel.headlines.first?.compOne ?? "",
+                teamTwo: viewModel.headlines.first?.compTwo ?? "",
+                time: viewModel.headlines.first?.startTime ?? "")
+            
+            headlineloop
+          
+       
         }
+    }
+    
+    @ViewBuilder
+    var headlineloop: some View{
+        if(viewModel.isTimeToUpdate){
+            ForEach(viewModel.updatedHeadlines.first?.betArr ?? [],id: \.id){ headline in
+                HeadlineContainer(
+                    currPage: currentPage ,
+                    probOne:  "",
+                    probTwo: "" ,
+                    teamOne: headline.compOne ?? "" ,
+                    teamTwo: headline.compTwo ?? "",
+                    time: headline.startTime ?? "")
+                
+                
+            }
+        }
+    }
+
+    //MARK: List of matches
+    var gameHeader : some View{
+        VStack{
+            ForEach(viewModel.headers,id: \.id){ header in
+                VStack{
+                    GameHeader(sport: header.sport, num: "\(header.competitions.count)", isHidden: $isHidden)
+                    if !isHidden {
+                        ForEach(header.competitions,id: \.id){ index in
+                            GameContainer(
+                                probOne: index.events.first?.markets.first?.bets.first?.odds ?? "",
+                                probX: index.events.first?.markets.first?.bets[1].odds,
+                                probTwo: index.events.first?.markets.first?.bets[2].odds ?? "",
+                                teamOne: index.events.first?.captions.compOne ?? "",
+                                teamTwo: index.events.first?.captions.compTwo ?? "",
+                                time: String(index.events.first?.liveData.elapseTime.prefix(5) ?? ""),
+                                scoreOne: String(index.events.first?.liveData.home ?? 7) ,
+                                scroreTwo: String(index.events.first?.liveData.away ?? 7) ,
+                                gameLeague: index.region)
+                        }
+                    }
+                   
+                }
+
+            }
+        }
+        
+        
     }
 }
 

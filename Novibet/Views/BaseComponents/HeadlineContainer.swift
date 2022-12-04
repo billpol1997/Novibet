@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct HeadlineContainer: View {
-    @State var pages : Int = 5
+     var pages : Int = 5
     @State var currPage : Int 
     @State var probOne : String
     @State var probX : String?
@@ -35,14 +35,20 @@ struct HeadlineContainer: View {
         .customPadding(.horizontal, .probContainerHorizontalPadding)
         .customPadding(.vertical, .headlineContainerVerticalPadding)
         .background(Color.theme.novibetBlack)
+        .frame(minWidth: CGFloat(.headerMinWidth),maxHeight: CGFloat(.headerMaxHeight))
         .clipShape(RoundedRectangle(cornerRadius: CGFloat(.headlineContainerRadius)))
     }
     
+    @ViewBuilder
     var match: some View{
         HStack{
             VStack{
-                Text(teamOne)
-                Text(teamTwo)
+                if(teamOne != ""){
+                    Text(teamOne)
+                    Text(teamTwo)
+                }else{
+                    Spacer()
+                }
             }
             Spacer()
             Text(time)

@@ -44,14 +44,17 @@
 		A97F181F293A7BBC0012C938 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F181E293A7BBC0012C938 /* LoginModel.swift */; };
 		A97F1821293A7C5C0012C938 /* LoginResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1820293A7C5C0012C938 /* LoginResponseModel.swift */; };
 		A97F1823293A7E190012C938 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97F1822293A7E190012C938 /* NetworkError.swift */; };
+		A9ADED83293CD03600E000DF /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A9ADED82293CD03600E000DF /* KeychainAccess */; };
+		A9ADED86293CD07D00E000DF /* KeychainHelperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ADED85293CD07D00E000DF /* KeychainHelperService.swift */; };
 		A9E14F6C293B97A500F1F6D8 /* HeadlineContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E14F6B293B97A500F1F6D8 /* HeadlineContainer.swift */; };
 		A9E14F6E293B98DC00F1F6D8 /* BaseProbContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E14F6D293B98DC00F1F6D8 /* BaseProbContainer.swift */; };
 		A9E14F70293BA3A000F1F6D8 /* PageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E14F6F293BA3A000F1F6D8 /* PageIndicator.swift */; };
 		A9E14F72293BAC7200F1F6D8 /* GameContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E14F71293BAC7200F1F6D8 /* GameContainer.swift */; };
 		A9E14F74293BB4CC00F1F6D8 /* GameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E14F73293BB4CC00F1F6D8 /* GameHeader.swift */; };
 		A9ED636F293BCE2F00082445 /* BetVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED636E293BCE2F00082445 /* BetVM.swift */; };
-		A9ED637A293BD27500082445 /* HeadlineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED6379293BD27500082445 /* HeadlineModel.swift */; };
+		A9ED637A293BD27500082445 /* HeadlinesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED6379293BD27500082445 /* HeadlinesModel.swift */; };
 		A9ED6381293BD97900082445 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9ED6380293BD97900082445 /* GameModel.swift */; };
+		A9EDAEB8293D4DA700408F20 /* UpdateHeadlinesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EDAEB7293D4DA700408F20 /* UpdateHeadlinesModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,14 +115,16 @@
 		A97F1820293A7C5C0012C938 /* LoginResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponseModel.swift; sourceTree = "<group>"; };
 		A97F1822293A7E190012C938 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		A97F1824293A85890012C938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A9ADED85293CD07D00E000DF /* KeychainHelperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelperService.swift; sourceTree = "<group>"; };
 		A9E14F6B293B97A500F1F6D8 /* HeadlineContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineContainer.swift; sourceTree = "<group>"; };
 		A9E14F6D293B98DC00F1F6D8 /* BaseProbContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProbContainer.swift; sourceTree = "<group>"; };
 		A9E14F6F293BA3A000F1F6D8 /* PageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIndicator.swift; sourceTree = "<group>"; };
 		A9E14F71293BAC7200F1F6D8 /* GameContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContainer.swift; sourceTree = "<group>"; };
 		A9E14F73293BB4CC00F1F6D8 /* GameHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHeader.swift; sourceTree = "<group>"; };
 		A9ED636E293BCE2F00082445 /* BetVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetVM.swift; sourceTree = "<group>"; };
-		A9ED6379293BD27500082445 /* HeadlineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlineModel.swift; sourceTree = "<group>"; };
+		A9ED6379293BD27500082445 /* HeadlinesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadlinesModel.swift; sourceTree = "<group>"; };
 		A9ED6380293BD97900082445 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		A9EDAEB7293D4DA700408F20 /* UpdateHeadlinesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateHeadlinesModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9ADED83293CD03600E000DF /* KeychainAccess in Frameworks */,
 				A97F181A293A78ED0012C938 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,11 +180,11 @@
 				A97F1824293A85890012C938 /* Info.plist */,
 				A97F17AE293A1B770012C938 /* NovibetApp.swift */,
 				A97F17B0293A1B770012C938 /* ContentView.swift */,
+				A9ADED84293CD04500E000DF /* Keychain */,
 				A97F17FC293A29A60012C938 /* Modifiers */,
 				A97F17ED293A25EA0012C938 /* Enums */,
 				A97F17E4293A20C10012C938 /* Extensions */,
 				A97F17DA293A1C110012C938 /* Data */,
-				A97F181D293A7B9D0012C938 /* Models */,
 				A97F17D9293A1BFF0012C938 /* ViewModels */,
 				A97F17D8293A1BF00012C938 /* Views */,
 				A97F17B2293A1B770012C938 /* Assets.xcassets */,
@@ -234,9 +240,9 @@
 		A97F17DA293A1C110012C938 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A9ADED87293CECF300E000DF /* Network */,
+				A97F181D293A7B9D0012C938 /* Models */,
 				A97F1816293A6F480012C938 /* Constants.swift */,
-				A97F181B293A7B230012C938 /* APIManager.swift */,
-				A97F1822293A7E190012C938 /* NetworkError.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -304,6 +310,23 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		A9ADED84293CD04500E000DF /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				A9ADED85293CD07D00E000DF /* KeychainHelperService.swift */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+		A9ADED87293CECF300E000DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A97F181B293A7B230012C938 /* APIManager.swift */,
+				A97F1822293A7E190012C938 /* NetworkError.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		A9ED637E293BD94E00082445 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,8 +339,9 @@
 		A9ED637F293BD95E00082445 /* Bets */ = {
 			isa = PBXGroup;
 			children = (
-				A9ED6379293BD27500082445 /* HeadlineModel.swift */,
+				A9ED6379293BD27500082445 /* HeadlinesModel.swift */,
 				A9ED6380293BD97900082445 /* GameModel.swift */,
+				A9EDAEB7293D4DA700408F20 /* UpdateHeadlinesModel.swift */,
 			);
 			path = Bets;
 			sourceTree = "<group>";
@@ -340,6 +364,7 @@
 			name = Novibet;
 			packageProductDependencies = (
 				A97F1819293A78ED0012C938 /* Alamofire */,
+				A9ADED82293CD03600E000DF /* KeychainAccess */,
 			);
 			productName = Novibet;
 			productReference = A97F17AB293A1B770012C938 /* Novibet.app */;
@@ -415,6 +440,7 @@
 			mainGroup = A97F17A2293A1B760012C938;
 			packageReferences = (
 				A97F1818293A78ED0012C938 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A9ADED81293CD03600E000DF /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 			);
 			productRefGroup = A97F17AC293A1B770012C938 /* Products */;
 			projectDirPath = "";
@@ -461,7 +487,9 @@
 				A97F1815293A6EF10012C938 /* TextFieldValidator.swift in Sources */,
 				A97F181F293A7BBC0012C938 /* LoginModel.swift in Sources */,
 				A97F17B1293A1B770012C938 /* ContentView.swift in Sources */,
+				A9ADED86293CD07D00E000DF /* KeychainHelperService.swift in Sources */,
 				A9E14F6C293B97A500F1F6D8 /* HeadlineContainer.swift in Sources */,
+				A9EDAEB8293D4DA700408F20 /* UpdateHeadlinesModel.swift in Sources */,
 				A9E14F6E293B98DC00F1F6D8 /* BaseProbContainer.swift in Sources */,
 				A9ED636F293BCE2F00082445 /* BetVM.swift in Sources */,
 				A97F180D293A5AB60012C938 /* Double+.swift in Sources */,
@@ -486,7 +514,7 @@
 				A97F17FB293A29370012C938 /* WidthsEnum.swift in Sources */,
 				A97F180B293A4F490012C938 /* TextEnum.swift in Sources */,
 				A97F17F5293A284B0012C938 /* FontSizesEnum.swift in Sources */,
-				A9ED637A293BD27500082445 /* HeadlineModel.swift in Sources */,
+				A9ED637A293BD27500082445 /* HeadlinesModel.swift in Sources */,
 				A97F1807293A330F0012C938 /* FontModifier.swift in Sources */,
 				A97F1821293A7C5C0012C938 /* LoginResponseModel.swift in Sources */,
 				A97F17EF293A26170012C938 /* AssetsEnum.swift in Sources */,
@@ -827,6 +855,14 @@
 				minimumVersion = 5.0.0;
 			};
 		};
+		A9ADED81293CD03600E000DF /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -834,6 +870,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A97F1818293A78ED0012C938 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		A9ADED82293CD03600E000DF /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9ADED81293CD03600E000DF /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -31,7 +31,7 @@ final class LoginVM: ObservableObject{
     @Published var token = ""
     private var cancellableSet : Set<AnyCancellable> = []
     private var api = APIManager()
-    
+    @Published var keychain = KeychainHelperService()
     private var con = Constants()
     
     //MARK: validate textfields
@@ -57,6 +57,7 @@ final class LoginVM: ObservableObject{
                 }else{
                     self.tokenResponse = response.value!
                     self.token = self.tokenResponse.accessToken
+                    self.keychain.storeToken(token: self.token, user: self.username)
                     print(self.token)
                     completion(nil)
                 }

@@ -10,13 +10,15 @@ import SwiftUI
 struct GameContainer: View {
     @State var probOne : String
     @State var probX : String?
-    @State var probTwo: String 
+    @State var probTwo: String
     @State var teamOne: String
     @State var teamTwo: String
     @State var time : String
     @State var scoreOne : String
     @State var scroreTwo: String
+    @State var gameLeague: String
     var body: some View {
+        league
         container
     }
     
@@ -35,21 +37,30 @@ struct GameContainer: View {
         .clipShape(RoundedRectangle(cornerRadius: CGFloat(.gameContainerRadius)))
     }
     
+    var league: some View{
+        HStack{
+            Text(gameLeague)
+                .customFont(.helveticaLight, .normalFontSize)
+                .foregroundColor(.white)
+                .customOpacity(.mediumOpacity)
+            Spacer()
+        }
+        .customPadding(.horizontal, .screenHorizontalPadding)
+        .customPadding(.vertical, .probContainerVerticalPadding)
+        .background(Color.theme.novibetGrey)
+    }
+    
     var match : some View{
         HStack(alignment: .bottom){
+            VStack{
+                Text(teamOne)
+                Spacer()
+                Text(teamTwo)
+            }
             VStack(spacing: 10){
-                HStack{
-                    Text(teamOne)
-                    Spacer()
-                    Text(scoreOne)
-                    Spacer()
-                }
-                HStack{
-                    Text(teamTwo)
-                    Spacer()
-                    Text(scroreTwo)
-                    Spacer()
-                }
+                Text(scoreOne)
+                Spacer()
+                Text(scroreTwo)
             }
             Spacer()
             Text(time)

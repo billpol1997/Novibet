@@ -12,6 +12,7 @@ enum HeightsEnum{
     case topBarLogoHeight
     case indicatorHeight
     case ballIconHeight
+    case headerMaxHeight
     
     var height: CGFloat{
         switch self{
@@ -21,6 +22,8 @@ enum HeightsEnum{
             return 15
         case .topBarLogoHeight:
             return 75
+        case .headerMaxHeight:
+            return 140
         }
     }
 }

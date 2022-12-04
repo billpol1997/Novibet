@@ -12,6 +12,7 @@ enum WidthsEnum{
     case topBarLogoWidth
     case loginbuttonWidth
     case ballIconWidth
+    case headerMinWidth
     
     var width: CGFloat{
         switch self{
@@ -21,6 +22,8 @@ enum WidthsEnum{
             return 200
         case .topBarLogoWidth:
             return 250
+        case .headerMinWidth:
+            return 360
         }
     }
 }

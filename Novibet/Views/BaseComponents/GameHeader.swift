@@ -11,7 +11,6 @@ struct GameHeader: View {
     @State var sport : String 
     @State var num : String 
     @Binding var isHidden : Bool
-    @State var gameLeague: String 
     var body: some View {
         header
     }
@@ -19,7 +18,6 @@ struct GameHeader: View {
     var header: some View{
         VStack(spacing: 0){
             title
-            league
         }
         .clipShape(RoundedRectangle(cornerRadius: CGFloat(.gameContainerRadius)))
     }
@@ -42,19 +40,6 @@ struct GameHeader: View {
         .customPadding(.vertical, .headlineContainerVerticalPadding)
         .background(Color.theme.novibetFadeBlue)
         
-    }
-    
-    var league: some View{
-        HStack{
-            Text(gameLeague)
-                .customFont(.helveticaLight, .normalFontSize)
-                .foregroundColor(.white)
-                .customOpacity(.mediumOpacity)
-            Spacer()
-        }
-        .customPadding(.horizontal, .screenHorizontalPadding)
-        .customPadding(.vertical, .probContainerVerticalPadding)
-        .background(Color.theme.novibetGrey)
     }
     
     var icon : some View{

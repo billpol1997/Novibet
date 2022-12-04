@@ -13,13 +13,13 @@ class Constants{
     let passwordHint = "Type your password"
     let regex = "^[a-zA-Z]+$"   //"[A-Z]{2}[0-9]{4}"
     let loginURL = "http://www.mocky.io/v2/5d8e4bd9310000a2612b5448/login"
-    let gamesURL = "http://www.mocky.io/v2/5d7113513300000b2177973a"
-    let headlinesURL = "http://www.mocky.io/v2/5d7113ef3300000e00779746"
+    let gamesURL = "http://www.mocky.io/v2/5d7113513300000b2177973a/games"
+    let headlinesURL = "http://www.mocky.io/v2/5d7113ef3300000e00779746/headlines"
     let updatedGamesURL = "http://www.mocky.io/v2/5d7114b2330000112177974d"
-    let updatedHeadlinesURL = "http://www.mocky.io/v2/5d711461330000d135779748"
+    let updatedHeadlinesURL = "http://www.mocky.io/v2/5d711461330000d135779748/updatedHeadlines"
     let headers : HTTPHeaders = [.contentType("application/json")]
     
     func getHeaderWithToken(token:String) -> HTTPHeaders{
-        return ["Authorization" : token,"Accept" : "application/json"]
+        return ["Authorization -> \(token)" : "application/json"]
     }
 }
